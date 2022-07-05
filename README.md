@@ -7,6 +7,7 @@
 1. Install the latest node LTS https://nodejs.org/en/
 
 Note: Python is installed as part of NodeJS
+
 2. Install desired IDE (PyCharm recommended)
 3. Install Selenium within desired IDE
 
