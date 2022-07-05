@@ -7,8 +7,11 @@ driver.get("https://store.epicgames.com/en-US/")
 
 search_field = driver.find_element(By.CLASS_NAME, "css-w7sedp")
 search_field.click()
-search_field.send_keys("Son") #Automation works until this step.
 
-#Due to Captcha, suggested results did not appear. Therefore, I could not complete the following automated step.
+
+search_field.send_keys("Son")
+
+#Due to Captcha, suggested results did not appear. Therefore, I could not complete the following automated step:
+
 #driver.find_element(By.CLASS_NAME, "css-z3vg5b").click()
 
